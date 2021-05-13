@@ -2,8 +2,6 @@
 
 The site CSBA (Cyber Security Bot Aiden) provides information on Cyber Security in India. Users can get help through our chatbot "askAiden". Aiden not only provides links and Helplines for the registration of complaints but also links the users to Cyber Security courses available in India. It will also provide Information on Unlawful content as provided at Ministry of Home Affairs.
 
-Site link: https://csba.herokuapp.com/
-
 <img src="Demo/HomePage.gif" width="400" height="250"/>
 
 # askAiden
