@@ -24,6 +24,6 @@ Express.js <br>
 
 # Credit
 
-Shashank sahu - Team Leader, Server, Design <br>
 Vinayak Raj - Chatbot Interface and Design <br>
+Shashank sahu - Server, Design <br>
 Rahul Kalia - Research, Design <br>
