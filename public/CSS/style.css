@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru&family=Lobster&family=Train+One&family=Ubuntu&display=swap');
+
+/* 
+font-family: 'Kiwi Maru', serif;
+font-family: 'Lobster', cursive;
+font-family: 'Train One', cursive;
+font-family: 'Ubuntu', sans-serif; 
+*/
+
+/* TAGS */
+html {
+    overflow-x: hidden;
+}
+
+body {
+    background-color: black;
+    font-size: 1.5rem;
+    color: #ffff;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h2 {
+    margin-bottom: 50px;
+    text-align: left;
+    font-size: 3.5rem;
+    font-family: 'Lobster', cursive;
+}
+
+h3 {
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+footer {
+    background-color: rgb(53, 58, 63);
+    padding: 1% 30%;
+    text-align: center;
+}
+
+/* CLASSES & IDs*/
+
+.navbar {
+    background: linear-gradient(to bottom, rgb(0, 0, 0, 0.9), rgba(0, 0, 0, 0));
+    position: fixed;
+    min-width: 100%;
+    z-index: 22;
+    transition: 0.5s;
+    font-size: 1.5rem;
+}
+
+.navbar-scrolled {
+    background-color: rgb(14, 15, 17);
+    transition: 1s;
+}
+
+.navbar-brand {
+    font-size: 2.6rem;
+    letter-spacing: 5px;
+}
+
+.brand-small {
+    display: block;
+    letter-spacing: 1px;
+    font-size: 0.6rem;
+}
+
+.navbar-nav {
+    margin-left: auto;
+    margin-right: 50px;
+}
+
+.navbar-nav li {
+    margin-right: 30px;
+}
+
+.intro {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.274);
+    height: 100vh;
+    font-size: 2.5rem;
+    font-family: 'Kiwi Maru', serif;
+}
+
+.intro-head {
+    font-size: 5rem;
+    text-align: center;
+}
+
+.intro-content {
+    position: absolute;
+    top: calc(30%);
+    text-align: center;
+}
+
+.aiden-button {
+    font-size: 3rem;
+    font-family: 'Lobster', cursive;
+
+}
+
+.about-section {
+    position: relative;
+    background-color: rgb(0, 0, 0);
+}
+
+.about-section .container-fluid {
+    overflow-x: hidden;
+}
+
+.section {
+    margin: 50px auto;
+    padding: 10% 0;
+}
+
+.section li {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.about {
+    padding: 1% 5%;
+    padding-top: 50px;
+    position: relative;
+}
+
+.about-img {
+    margin: auto;
+    width: 90%;
+    height: 60vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: background-image 0.5s;
+    border-radius: 10px;
+}
+
+.img1 {
+    background-image: url("https://s7d2.scene7.com/is/image/honeywell/sps-ppr-blog-not-all-security-updates-are-equal:1-1-square?wid=600&hei=600");
+}
+
+.img1:hover {
+    background-image: url("https://www.sagacent.com/wp-content/uploads/2018/08/sagacen-common-cyber-attack.jpg");
+}
+
+.img2 {
+    background-image: url("https://st3.depositphotos.com/8950810/17657/v/600/depositphotos_176577870-stock-illustration-cute-smiling-funny-robot-chat.jpg");
+}
+
+.img2:hover {
+    background-image: url("https://www.globtierinfotech.com/wp-content/uploads/2021/01/sample-chatbot-demo-500x500.png");
+}
+
+.img3 {
+    background-image: url("https://www.shareaholic.com/blog/wp-content/uploads/2013/01/7702900836_0106e4e49a_c.jpg");
+}
+
+.img3:hover {
+    background-image: url("https://www.cereiv.com/wp-content/uploads/2019/06/COMPLIANCE_CYBER_SECURITY1.jpg");
+}
+
+.box-shadow {
+    bottom: 99.9%;
+    position: absolute;
+    background: linear-gradient(to top, black, transparent);
+    height: 200px;
+    width: 100%;
+    z-index: 20;
+}
+
+.box-shadow2 {
+    top: 99.9%;
+    position: absolute;
+    background: linear-gradient(to bottom, black, transparent);
+    height: 100px;
+    width: 100%;
+    z-index: 20;
+}
+
+#videoBackground {
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding: 0;
+    width: 100%;
+    z-index: -20;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.bi {
+    margin: 5px;
+    color: white;
+}
+
+.information {
+    background-image: url("https://images.pexels.com/photos/924824/pexels-photo-924824.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    text-align: center;
+    padding-top: 5%;
+    background-attachment: fixed;
+}
+
+.information a {
+    text-decoration: none;
+    color: white;
+}
+
+.card {
+    background-color: rgb(54, 58, 62);
+    padding: 1% 1%;
+    margin: 20px;
+    font-family: 'Kiwi Maru', serif;
+    font-size: 1rem;
+    box-shadow: -2px 5px 10px black;
+}
+
+.card:hover {
+    background-color: rgb(29, 29, 29);
+}
+
+.card img {
+    margin-top: 10px;
+}
+
+/* MEDIA */
+
+@media(max-width:993px) {
+
+    #videoBackground {
+        width: 2000px;
+    }
+
+    .intro {
+        font-size: 1.5rem;
+    }
+
+    .intro-content {
+        top: calc(20%);
+    }
+
+    .toleft {
+        display: flex;
+        flex-flow: row;
+    }
+
+    .box2 {
+        order: 2;
+    }
+
+    .box1 {
+        order: 1;
+    }
+
+    .about-img {
+        height: 50vh;
+        width: 100%;
+    }
+}
